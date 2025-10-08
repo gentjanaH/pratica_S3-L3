@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    padding: 2em;
+    background-image: linear-gradient(350deg, #6a11cb 0%, #e1e1e1 100%);
+    ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    font-style: oblique;
+    text-align: center;
+    color: rgb(70, 38, 65);
+
+
+}
+
+form {
+    display: inline;
+}
+
+form div {
+    text-align: center;
+}
+
+main {
+    width: 500px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+
+
+
+form button {
+    margin-top: 2em;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    background-color: azure;
+    color: blueviolet;
+    cursor: pointer;
+    border: 1px solid #ccc;
+
+}
+
+form input {
+
+    width: 15em;
+    padding: 0.3em;
+    height: 2em;
+    border-radius: 8px;
+
+}
+
+
+#note-book {
+    background-image: url(./sfondo-a-righe.jpg);
+    border-radius: 10px;
+    width: 500px;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+}
+
+#note-book li {
+    display: block;
+    text-align: left;
+    padding-left: 1em;
+    padding-top: 0.25em;
+    margin-right: 1em;
+}
+
+#note-book li button {
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    cursor: pointer;
+
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    color: #f1edf3;
+    background-image: linear-gradient(357deg, #6a11cb 0%, #e1e1e1 100%);
+    margin-top: 40px;
+}
